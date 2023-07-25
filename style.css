@@ -2,67 +2,79 @@
 *{
   font-size: 0;
   text-align: center;
-  
+}
+@font-face {
+  font-family: "Seagram";
+  src: url("/Fonts/Seagram\ tfb.ttf");
 }
 
-.showCard {
-  font-size: 0;
-  margin: 0 auto;
+#title{
+  font-size: 26px;
+  font-family: "Seagram";
+  color: black;
+  margin: auto;
+  margin-bottom: 10px;
 }
 
-.primeira{
-  position: absolute;
-  left: 0px;
+.main{
+  background-color: antiquewhite;
+  background-image: url("assets/grunge-paper-background-for-design-700-231425288.jpg");
+  border-radius: 10px;
+  margin: auto;
+  width: 920px;
+  height: 430px;
+  padding-top: 20px;
+  border: 2px solid black;
 }
 
-.segunda{
-  background-color: blueviolet;
-  position: absolute;
-  left: 201.6px;
-}
-.terceira{
-  background-color: bisque;
-  position: absolute;
-  left: 403.2px;
-}
-.quarta{
-  background-color: chocolate;
-  position: absolute;
-  left:604.8px;
-}
-
-#change{
-  font-size: 15px;
-  position: relative;
-  top: 200px;
-  display: inline-block;
-}
-#show{
-  font-size: 15px;
-  position: relative;
-  top: 200px;
-  display: inline-block;
+#result{
+  font-size: 20px;
 }
 
 #container{
-  position: relative;
-  background-color: aquamarine;
-  height: 350px;
+  height: 335px;
   display: inline-block;
-  width: 850.4px;
+  width: 806.4px;
   perspective: 1000px;
 }
 
-.flip-card{
-  width: 200px;
-  height: 320px;
-  transition: 1s;
-  border: 1px solid black;
+#paladin{
+  left: 0px;
 }
 
-.flipada{
-  transform: rotateY(180deg);
-  transform-style: preserve-3d;
+.paladin{
+  background-image: url(/assets/paladin.jpg);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#mage{
+  left: 201.6px;
+}
+
+.mago{
+  background-image: url(/assets/mage.jpg);
+  background-size: cover;
+  
+}
+
+#scout{
+  left: 403.2px;
+}
+
+.batedor{
+  background-image: url(/assets/scout.jpg);
+  background-size: cover;
+}
+
+#warrior{
+  left:604.8px;
+}
+
+.guerreiro{
+  background-image: url(/assets/warrior.jpg);
+  background-size: cover;
 }
 
 .front, .back{
@@ -84,11 +96,30 @@
   width: 100%;
 }
 
+#paladin,#mage,#scout,#warrior {
+  width: 200px;
+  height: 335px;
+  transition: 1s;
+  position: absolute;
+}
+
+.flipada{
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+}
+
+/*Testes*/
 .escolhido{
   border: 1px gold solid;
 }
 
-.palad{
-  background-image: url(/assets/ruler.jpg);
-  background-size: cover;
+#change{
+  font-size: 15px;
+  top: 200px;
+  display: inline-block;
+}
+#show{
+  font-size: 15px;
+  top: 200px;
+  display: inline-block;
 }

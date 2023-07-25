@@ -27,7 +27,7 @@ function virar(e) {
 //Dxar pronta
 function showAll(e) {
     for (let i = 0; i < 4; i += 1) {
-        if (div.children[i].classList.toggle('flipada')) {
+        if (div.children[i].classList.contains('flipada')) {
             div.children[i].classList.toggle('flipada')
         }
         div.children[i].classList.toggle('flipada')
@@ -35,12 +35,13 @@ function showAll(e) {
 }
 
 function choice(e) {
-    const escolhido = document.querySelector('.escolhido')
-    if (escolhido) {
+    //const escolhido = document.querySelector('.escolhido')
+    const carta = e.target.parentElement
+    /*if (escolhido) {
         escolhido.classList.toggle('escolhido')
-    }
-    e.target.classList.toggle('escolhido');
-    if (e.target.id == 'paladin') {
+    }*/
+
+    if (carta.id == 'paladin') {
         console.log('Você acertou');
     }
 }
