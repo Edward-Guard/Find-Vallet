@@ -67,7 +67,7 @@
 }
 
 .paladin{
-  background-image: url(/assets/paladin.jpg);
+  background-image: url(https://i.pinimg.com/564x/73/e3/34/73e334f0eee1cf989aae036d1e1ec063.jpg);
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -79,7 +79,7 @@
 }
 
 .mago{
-  background-image: url(/assets/mage.jpg);
+  background-image: url(https://i.pinimg.com/564x/e4/48/e3/e448e39a5ca02f8baa87acc7f395757d.jpg);
   background-size: cover;
   
 }
@@ -89,7 +89,7 @@
 }
 
 .batedor{
-  background-image: url(/assets/scout.jpg);
+  background-image: url(https://i.pinimg.com/564x/ac/cc/7b/accc7b38e3b7403b8e1dd503db4d4d8c.jpg);
   background-size: cover;
 }
 
@@ -98,7 +98,7 @@
 }
 
 .guerreiro{
-  background-image: url(/assets/warrior.jpg);
+  background-image: url(https://i.pinimg.com/564x/88/67/43/8867431b0fed76d93f391428d5751413.jpg);
   background-size: cover;
 }
 
