@@ -1,0 +1,82 @@
+.carta {
+  width: 200px;
+  height: 300px;
+  display: inline-block;
+  margin-inline: 0;
+  border: 1px solid black;
+}
+
+*{
+  font-size: 0;
+  text-align: center;
+  
+}
+
+.showCard {
+  font-size: 0;
+  margin: 0 auto;
+}
+
+.primeira{
+  background-color: cadetblue;
+  position: absolute;
+  transition: 1s;
+  left: 0px;
+}
+
+.segunda{
+  background-color: blueviolet;
+  position: absolute;
+  transition: 1s;
+  left: 201.6px;
+}
+.terceira{
+  background-color: bisque;
+  position: absolute;
+  transition: 1s;
+  left: 403.2px;
+}
+.quarta{
+  background-color: chocolate;
+  position: absolute;
+  transition: 1s;
+  left:604.8px;
+}
+
+#change{
+  font-size: 15px;
+  position: relative;
+  top: 200px;
+  display: inline-block;
+}
+
+#container{
+  position: relative;
+  background-color: aquamarine;
+  height: 350px;
+  display: inline-block;
+  width: 806.4px;
+  perspective: 1000px;
+}
+
+.flip-card{
+  width: 200px;
+  height: 300px;
+  transition: 1s;
+}
+
+.flipada{
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+}
+
+.front, .back{
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+}
+.back{
+  transform: rotateY(180deg);
+}
