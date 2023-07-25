@@ -3,14 +3,12 @@
   font-size: 0;
   text-align: center;
 }
-@font-face {
-  font-family: "Seagram";
-  src: url("/Fonts/Seagram\ tfb.ttf");
-}
+@import url('https://fonts.cdnfonts.com/css/seagram-tfb');
+
 
 #title{
   font-size: 26px;
-  font-family: "Seagram";
+  font-family: 'Seagram tfb', sans-serif;
   color: black;
   margin: auto;
   margin-bottom: 10px;
@@ -29,7 +27,7 @@
 
 #result , #score, #chances{
   font-size: 20px;
-  font-family: "Seagram";
+  font-family: 'Seagram tfb', sans-serif;
   color: black;
   display: inline-block;
   background-color: rgba(184, 134, 11,0.6);
